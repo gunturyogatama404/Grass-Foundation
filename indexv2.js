@@ -57,8 +57,8 @@ const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)';
 const PING_INTERVAL = 5000;
 const RETRY_INTERVAL = 1000;
 const MAX_RETRIES = 5;
-const MIN_CONNECTIONS_PER_USER = 40; // Min devices connected per user (changeable)
-const MAX_CONNECTIONS_PER_USER = 70; // Max devices connected per user (changeable)
+const MIN_CONNECTIONS_PER_USER = 50; // Min devices connected per user (changeable)
+const MAX_CONNECTIONS_PER_USER = 100; // Max devices connected per user (changeable)
 
 // Rutas de Archivos
 const proxiesPath = path.join(__dirname, 'proxies.txt');
