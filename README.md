@@ -8,3 +8,6 @@ My advice would be use proxies from 2captcha service provider ideally ISP Proxie
 Solid Ws Connections to avoid missing points, proxy rotation is every 2 hours - if you have a better proxy provider with larger duiration time that would be sweet if could share.
 
 Add proxies in format socks5://login:pass@ip:port
+
+Added "indexv2.js" uses different mechanic to connect Ws sessions - Quick Advise use proxies with Multilogin config if you're using proxies from 2captcha like me. It helps to keep connections much more stronger
+Example: https://prnt.sc/Lv0aUGjMfb90 - Add at least 15 proxies per user added in the code
