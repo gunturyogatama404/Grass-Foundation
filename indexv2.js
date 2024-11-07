@@ -52,7 +52,7 @@ const logger = winston.createLogger({
 
 // Constantes de Configuración
 const WSS_URL = 'wss://proxy2.wynd.network:4650/';
-const AUTH_ORIGIN = 'chrome-extension://ilehaonighjijnmpnagapkhpcdbhclfg';
+const AUTH_ORIGIN = 'chrome-extension://lkbnfiajjmbhnfledhphioinpickokdi';
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)';
 const PING_INTERVAL = 5000;
 const RETRY_INTERVAL = 1000;
@@ -209,7 +209,7 @@ function connectWebSocket(proxy, userID, retryCounts = {}) {
               user_agent: USER_AGENT,
               timestamp: Math.floor(Date.now() / 1000),
               device_type: 'extension',
-              extension_id: 'ilehaonighjijnmpnagapkhpcdbhclfg',
+              extension_id: 'lkbnfiajjmbhnfledhphioinpickokdi',
               version: '4.26.2',
             },
           };
