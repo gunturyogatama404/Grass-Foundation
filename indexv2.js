@@ -54,11 +54,11 @@ const logger = winston.createLogger({
 const WSS_URL = 'wss://proxy2.wynd.network:4650/';
 const AUTH_ORIGIN = 'chrome-extension://ilehaonighjijnmpnagapkhpcdbhclfg';
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)';
-const PING_INTERVAL = 5000;
+const PING_INTERVAL = 2000;
 const RETRY_INTERVAL = 1000;
 const MAX_RETRIES = 5;
-const MIN_CONNECTIONS_PER_USER = 5; // Min devices connected per user (changeable)
-const MAX_CONNECTIONS_PER_USER = 10; // Max devices connected per user (changeable)
+const MIN_CONNECTIONS_PER_USER = 10; // Min devices connected per user (changeable)
+const MAX_CONNECTIONS_PER_USER = 70; // Max devices connected per user (changeable)
 
 // Rutas de Archivos
 const proxiesPath = path.join(__dirname, 'proxies.txt');
